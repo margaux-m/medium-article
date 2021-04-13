@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Open+Sans:wght@700&display=swap');
+
+@media(max-width: 1200px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media(max-width: 992px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media(max-width: 576px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  color: rgba(60, 60, 60, 1.0);
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  margin: 30px 0px;
+}
+
+h2 {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+h3, h4 {
+  color: rgba(10, 10, 10, 1.0);
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+a {
+  text-decoration: none;
+  background-color: #bed8d4;
+  color: rgba(60, 60, 60, 1.0);
+}
+
+a:hover {
+  background-color: #88d18a;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-legend {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: rgba(100, 100, 100, 1.0);
+  font-weight: lighter;
+}
+
+.text-extract {
+  font-style: italic;
+  font-size: 30px;
+  color: rgba(140, 140, 140, 1.0);
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(200, 200, 200, 0.6)), url("https://source.unsplash.com/random/1600x900");
+  background-size: cover;
+  padding: 120px 0;
+  color: #FFFFFF;
+}
